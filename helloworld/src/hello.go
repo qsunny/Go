@@ -22,6 +22,7 @@ type person struct{}
 type iUser interface{}
 
 func main() {
+<<<<<<< HEAD
 	//go语言通过函数首字母的大小写来区分函数是public ,还是private
 	fmt.Printf("hello, world\n")
 	var str1 string = "small"
@@ -40,4 +41,7 @@ func main() {
 		fmt.Println("i=", i)
 	}
 
+=======
+	fmt.Printf("hello, world\n") //
+>>>>>>> 9917b17a58379fee5c55fdc59518e982a8013d14
 }
