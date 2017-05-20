@@ -5,7 +5,7 @@ Go demostrate learn
     $ go env    
     $go env GOOS GOPATH
 
-2. 访问go离线文档
+2.  访问go离线文档
 
     	godoc -http=:<port-number>
 		go tool tour
