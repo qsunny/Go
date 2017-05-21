@@ -55,6 +55,10 @@ func split(sum int) (x, y int) {
 	return
 }
 
+func SumProduct(a, b int) (int, int) {
+	return a + b, a * b
+}
+
 func main() {
 	var n int
 	fmt.Println(n, c, python, java)
@@ -94,4 +98,17 @@ func main() {
 	ff := float64(i)
 	uu := uint(f)
 	fmt.Println(ii, ff, uu)
+
+	// I only want the sum, but not the product, "blank identifier" _
+	sum, _ := SumProduct(1, 2) // the product gets discarded
+	fmt.Println(sum)           // prints 3
+
+	// Range returns both the current index and value
+	// but sometimes you may only want to use the value
+	pets := []string{"dog", "cat", "fish"}
+	for _, pet := range pets {
+		fmt.Println(pet)
+	}
+
+	//checking a variable's type var.(type)
 }
