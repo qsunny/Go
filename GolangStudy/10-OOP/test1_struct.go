@@ -2,21 +2,21 @@ package main
 
 import "fmt"
 
-//声明一种行的数据类型 myint， 是int的一个别名
+// 声明一种行的数据类型 myint， 是int的一个别名
 type myint int
 
-//定义一个结构体
-type Book struct {
+// 定义一个结构体
+type BookA struct {
 	title string
 	auth  string
 }
 
-func changeBook(book Book) {
+func changeBook(book BookA) {
 	//传递一个book的副本
 	book.auth = "666"
 }
 
-func changeBook2(book *Book) {
+func changeBook2(book *BookA) {
 	//指针传递
 	book.auth = "777"
 }
@@ -28,7 +28,7 @@ func main() {
 		fmt.Printf("type of a = %T\n", a)
 	*/
 
-	var book1 Book
+	var book1 BookA
 	book1.title = "Golang"
 	book1.auth = "zhang3"
 
