@@ -30,6 +30,7 @@ go get -u github.com/gin-gonic/gin
 go get -u github.com/spf13/viper 
 go get -u go.uber.org/zap/zapcore 
 go get -u github.com/lestrrat-go/file-rotatelogs 
+go get -u gorm.io/driver/mysql 
 
 
 

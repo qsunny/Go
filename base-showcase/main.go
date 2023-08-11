@@ -3,6 +3,7 @@ package main
 import (
 	"base-showcase/core"
 	"base-showcase/global"
+	"base-showcase/initialize"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
@@ -42,6 +43,8 @@ func main() {
 	zap.ReplaceGlobals(global.EWA_LOG)
 	global.EWA_LOG.Info("server run success on ", zap.String("zap_log", "zap_log"))
 	// TODO：3.数据库连接
+	global.EWA_DB = initialize.Gorm()
+
 	// TODO：4.其他初始化
 	// TODO：5.启动服务
 
