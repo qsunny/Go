@@ -18,6 +18,7 @@ https://mp.weixin.qq.com/s/t1ngDeT5Jq1ueixDWT9Q2w
 https://juejin.cn/post/7213297003869569081
 
 完整的代码：https://github.com/ian-kevin126/gin_common_web_server
+https://github.com/songcser/gingo/tree/master
 
 [1] viper: https://github.com/spf13/viper
 
