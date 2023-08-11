@@ -17,6 +17,16 @@ https://mp.weixin.qq.com/s/t1ngDeT5Jq1ueixDWT9Q2w
 https://juejin.cn/post/7213297003869569081
 
 完整的代码：https://github.com/ian-kevin126/gin_common_web_server
+
+[1] viper: https://github.com/spf13/viper
+
+[2] fvbock/endless: https://github.com/fvbock/endless
+
+[3] 296: https://github.com/gin-gonic/gin/issues/296
+
+[4] zap: https://github.com/uber-go/zap
+
+[5] lumberjack: https://github.com/natefinch/lumberjack
 */
 
 const AppMode = "debug" // 运行环境，主要有三种：debug、test、release
