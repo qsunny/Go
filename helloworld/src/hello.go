@@ -5,24 +5,23 @@ import "fmt"
 //导入的包要使用，要不编译会报错
 //import "os"
 
-//常量声明
+// 常量声明
 const PI = 3.1415926
 const IP = "127.0.0.1"
 
-//全局变量声明
+// 全局变量声明
 var name = "aaron.qiu"
 
-//一般类型声明
+// 一般类型声明
 type age int
 
-//struct 声明
+// struct 声明
 type person struct{}
 
-//接口声明
+// 接口声明
 type iUser interface{}
 
 func main() {
-<<<<<<< HEAD
 	//go语言通过函数首字母的大小写来区分函数是public ,还是private
 	fmt.Printf("hello, world\n")
 	var str1 string = "small"
@@ -41,7 +40,5 @@ func main() {
 		fmt.Println("i=", i)
 	}
 
-=======
 	fmt.Printf("hello, world\n") //
->>>>>>> 9917b17a58379fee5c55fdc59518e982a8013d14
 }
